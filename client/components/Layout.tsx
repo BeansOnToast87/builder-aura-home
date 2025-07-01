@@ -111,8 +111,58 @@ export default function Layout({ children }: LayoutProps) {
       <div className="flex-1">{children}</div>
 
       {/* Bottom Navigation */}
-      <div className="bg-white border-t border-gray-200 px-6 py-2">
-        <div className="flex justify-center">
+      <div className="bg-white border-t border-gray-200">
+        <div className="flex justify-around py-3">
+          <Link
+            to="/home"
+            className={`flex flex-col items-center gap-1 px-3 py-2 rounded-lg ${
+              location.pathname === "/" || location.pathname === "/home"
+                ? "text-subster-purple"
+                : "text-gray-500"
+            }`}
+          >
+            <div className="w-6 h-6 flex items-center justify-center">🏠</div>
+            <span className="text-xs font-medium">Home</span>
+          </Link>
+
+          <Link
+            to="/jobs"
+            className={`flex flex-col items-center gap-1 px-3 py-2 rounded-lg ${
+              location.pathname === "/jobs"
+                ? "text-subster-purple"
+                : "text-gray-500"
+            }`}
+          >
+            <div className="w-6 h-6 flex items-center justify-center">💼</div>
+            <span className="text-xs font-medium">Jobs</span>
+          </Link>
+
+          <Link
+            to="/timesheets"
+            className={`flex flex-col items-center gap-1 px-3 py-2 rounded-lg ${
+              location.pathname === "/timesheets"
+                ? "text-subster-purple"
+                : "text-gray-500"
+            }`}
+          >
+            <div className="w-6 h-6 flex items-center justify-center">📊</div>
+            <span className="text-xs font-medium">Timesheets</span>
+          </Link>
+
+          <Link
+            to="/messages"
+            className={`flex flex-col items-center gap-1 px-3 py-2 rounded-lg ${
+              location.pathname === "/messages"
+                ? "text-subster-purple"
+                : "text-gray-500"
+            }`}
+          >
+            <div className="w-6 h-6 flex items-center justify-center">💬</div>
+            <span className="text-xs font-medium">Messages</span>
+          </Link>
+        </div>
+
+        <div className="flex justify-center py-2">
           <div className="w-32 h-1 bg-gray-900 rounded-full"></div>
         </div>
       </div>
