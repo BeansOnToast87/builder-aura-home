@@ -57,6 +57,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        subster: {
+          purple: "hsl(var(--subster-purple))",
+          "purple-light": "hsl(var(--subster-purple-light))",
+          "purple-dark": "hsl(var(--subster-purple-dark))",
+          green: "hsl(var(--subster-green))",
+          "green-light": "hsl(var(--subster-green-light))",
+          gray: "hsl(var(--subster-gray))",
+          "gray-light": "hsl(var(--subster-gray-light))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

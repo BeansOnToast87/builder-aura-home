@@ -54,6 +54,15 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Subster theme colors */
+    --subster-purple: 310 45% 60%;
+    --subster-purple-light: 315 50% 75%;
+    --subster-purple-dark: 305 40% 45%;
+    --subster-green: 142 69% 58%;
+    --subster-green-light: 142 69% 78%;
+    --subster-gray: 215 16% 47%;
+    --subster-gray-light: 210 20% 98%;
   }
 
   .dark {
@@ -92,6 +101,15 @@
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Subster dark theme colors */
+    --subster-purple: 310 45% 55%;
+    --subster-purple-light: 315 50% 70%;
+    --subster-purple-dark: 305 40% 40%;
+    --subster-green: 142 69% 58%;
+    --subster-green-light: 142 69% 78%;
+    --subster-gray: 215 16% 65%;
+    --subster-gray-light: 220 13% 18%;
   }
 }
 
