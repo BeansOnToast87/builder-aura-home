@@ -104,14 +104,14 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Subster dark theme colors */
-    --subster-purple: 331 29% 58%; /* #B68298 dusty rose - slightly darker */
-    --subster-purple-light: 331 29% 68%; /* lighter dusty rose */
-    --subster-purple-dark: 331 29% 48%; /* darker dusty rose */
-    --subster-navy: 223 24% 48%; /* #6E779E soft navy - slightly darker */
-    --subster-navy-light: 223 24% 58%; /* lighter soft navy */
-    --subster-green: 108 34% 71%; /* #B2D9AD mint green - slightly darker */
-    --subster-green-light: 108 34% 81%; /* lighter mint green */
+    /* Subster dark theme colors - exact logo match */
+    --subster-purple: 331 29% 58%; /* #B68298 dusty rose - darker for dark mode */
+    --subster-purple-light: 331 35% 68%; /* lighter dusty rose */
+    --subster-purple-dark: 331 25% 48%; /* darker dusty rose */
+    --subster-navy: 223 24% 48%; /* #6E779E soft navy - darker for dark mode */
+    --subster-navy-light: 223 30% 58%; /* lighter soft navy */
+    --subster-green: 108 34% 71%; /* #B2D9AD mint green - darker for dark mode */
+    --subster-green-light: 108 40% 81%; /* lighter mint green */
     --subster-gray: 215 16% 65%;
     --subster-gray-light: 220 13% 18%;
   }
