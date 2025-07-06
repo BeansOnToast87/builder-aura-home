@@ -40,7 +40,7 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Status Bar */}
-      <div className="bg-gradient-to-r from-subster-purple to-subster-purple-light px-6 py-2">
+      <div className="px-6 py-2" style={{ background: "#B68298" }}>
         <div className="flex justify-between items-center text-white text-sm font-medium">
           <span>9:41</span>
           <div className="flex items-center gap-1">
@@ -65,7 +65,7 @@ export default function Layout({ children }: LayoutProps) {
       </div>
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-subster-purple to-subster-purple-light px-6 py-6">
+      <div className="px-6 py-6" style={{ background: "#B68298" }}>
         <div className="flex items-center justify-between">
           {/* User Avatar */}
           <div className="w-10 h-10 rounded-full bg-white/20 overflow-hidden">
