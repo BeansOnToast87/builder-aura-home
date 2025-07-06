@@ -55,14 +55,14 @@
 
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Subster theme colors */
+    /* Subster theme colors - exact logo match */
     --subster-purple: 331 29% 63%; /* #B68298 dusty rose */
-    --subster-purple-light: 331 29% 73%; /* lighter dusty rose */
-    --subster-purple-dark: 331 29% 53%; /* darker dusty rose */
+    --subster-purple-light: 331 35% 73%; /* lighter dusty rose for gradients */
+    --subster-purple-dark: 331 25% 53%; /* darker dusty rose for depth */
     --subster-navy: 223 24% 53%; /* #6E779E soft navy */
-    --subster-navy-light: 223 24% 63%; /* lighter soft navy */
+    --subster-navy-light: 223 30% 63%; /* lighter soft navy */
     --subster-green: 108 34% 76%; /* #B2D9AD mint green */
-    --subster-green-light: 108 34% 86%; /* lighter mint green */
+    --subster-green-light: 108 40% 86%; /* lighter mint green */
     --subster-gray: 215 16% 47%;
     --subster-gray-light: 210 20% 98%;
   }
