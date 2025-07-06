@@ -6,6 +6,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Splash from "./pages/Splash";
 import Home from "./pages/Home";
 import Timesheets from "./pages/Timesheets";
 import Jobs from "./pages/Jobs";
@@ -21,7 +22,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Splash />} />
           <Route path="/home" element={<Home />} />
           <Route path="/timesheets" element={<Timesheets />} />
           <Route path="/jobs" element={<Jobs />} />
