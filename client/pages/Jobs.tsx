@@ -158,7 +158,7 @@ export default function Jobs() {
             <input
               type="text"
               placeholder="Search Jobs"
-              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-subster-purple/20"
+              className="w-full pl-10 pr-4 py-3 border border-gray-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-subster-purple/20 focus:border-subster-purple"
             />
           </div>
           <button className="w-12 h-12 border border-gray-200 rounded-2xl flex items-center justify-center">

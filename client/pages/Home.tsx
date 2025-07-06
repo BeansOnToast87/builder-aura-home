@@ -19,7 +19,7 @@ export default function Home() {
                 You have 1 upcoming deadline for job confirmation
               </p>
             </div>
-            <button className="px-4 py-2 border border-subster-purple text-subster-purple rounded-full text-sm font-medium">
+            <button className="px-4 py-2 border border-subster-navy text-subster-navy rounded-full text-sm font-medium hover:bg-subster-navy hover:text-white transition-colors">
               View
             </button>
           </div>
