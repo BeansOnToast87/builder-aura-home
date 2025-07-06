@@ -56,11 +56,13 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     /* Subster theme colors */
-    --subster-purple: 310 45% 60%;
-    --subster-purple-light: 315 50% 75%;
-    --subster-purple-dark: 305 40% 45%;
-    --subster-green: 142 69% 58%;
-    --subster-green-light: 142 69% 78%;
+    --subster-purple: 331 29% 63%; /* #B68298 dusty rose */
+    --subster-purple-light: 331 29% 73%; /* lighter dusty rose */
+    --subster-purple-dark: 331 29% 53%; /* darker dusty rose */
+    --subster-navy: 223 24% 53%; /* #6E779E soft navy */
+    --subster-navy-light: 223 24% 63%; /* lighter soft navy */
+    --subster-green: 108 34% 76%; /* #B2D9AD mint green */
+    --subster-green-light: 108 34% 86%; /* lighter mint green */
     --subster-gray: 215 16% 47%;
     --subster-gray-light: 210 20% 98%;
   }
@@ -103,11 +105,13 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     /* Subster dark theme colors */
-    --subster-purple: 310 45% 55%;
-    --subster-purple-light: 315 50% 70%;
-    --subster-purple-dark: 305 40% 40%;
-    --subster-green: 142 69% 58%;
-    --subster-green-light: 142 69% 78%;
+    --subster-purple: 331 29% 58%; /* #B68298 dusty rose - slightly darker */
+    --subster-purple-light: 331 29% 68%; /* lighter dusty rose */
+    --subster-purple-dark: 331 29% 48%; /* darker dusty rose */
+    --subster-navy: 223 24% 48%; /* #6E779E soft navy - slightly darker */
+    --subster-navy-light: 223 24% 58%; /* lighter soft navy */
+    --subster-green: 108 34% 71%; /* #B2D9AD mint green - slightly darker */
+    --subster-green-light: 108 34% 81%; /* lighter mint green */
     --subster-gray: 215 16% 65%;
     --subster-gray-light: 220 13% 18%;
   }
