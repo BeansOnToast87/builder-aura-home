@@ -88,7 +88,7 @@ export default function Home() {
 
             <div className="mt-4 pt-4 border-t border-gray-100">
               <div className="flex items-center gap-2 text-gray-600">
-                <div className="w-4 h-4">📄</div>
+                <div className="w-4 h-4">���</div>
                 <span className="text-sm underline">Terms and conditions</span>
               </div>
             </div>
@@ -148,7 +148,7 @@ export default function Home() {
 
             <div className="space-y-3">
               <div className="flex items-center gap-2 text-gray-600">
-                <div className="w-4 h-4 text-subster-purple">⚡</div>
+                <div className="w-4 h-4 text-subster-navy">⚡</div>
                 <span className="text-sm">Advanced</span>
               </div>
             </div>
