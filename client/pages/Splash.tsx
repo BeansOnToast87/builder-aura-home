@@ -14,24 +14,24 @@ export default function Splash() {
 
   return (
     <div
-      className="min-h-screen flex flex-col items-center justify-center px-6"
+      className="h-screen flex flex-col items-center justify-center px-6"
       style={{ backgroundColor: "#B68298" }}
     >
       {/* Logo with fade-in animation */}
-      <div className="animate-fade-in">
+      <div className="animate-fade-in mb-8">
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F8cb83502768745a4a67cc5a59e3de622%2F812fafd930e649a987a31d6033f45ca6?format=webp&width=800"
           alt="Subster logo"
-          className="w-24 h-24 object-contain mb-8"
+          className="w-32 h-32 object-contain mx-auto"
         />
       </div>
 
-      {/* App name with fade-in animation */}
+      {/* App name and tagline with fade-in animation */}
       <div className="animate-fade-in-delayed text-center">
-        <h1 className="text-white font-bold text-3xl mb-4">Subster</h1>
+        <h1 className="text-white font-bold text-3xl mb-6">Subster</h1>
 
         {/* Tagline */}
-        <p className="text-white text-base opacity-80 leading-relaxed max-w-sm">
+        <p className="text-white text-base opacity-80 leading-relaxed max-w-sm mx-auto">
           Connecting great teachers with schools, instantly.
         </p>
       </div>
