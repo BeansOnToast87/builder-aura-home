@@ -117,7 +117,7 @@ export default function Timesheets() {
               <button className="flex-1 py-3 border border-gray-300 rounded-full text-gray-700 font-medium">
                 Edit
               </button>
-              <button className="flex-1 py-3 bg-subster-green text-white rounded-full font-medium">
+              <button className="flex-1 py-3 bg-subster-green text-white rounded-full font-medium hover:bg-subster-green-light transition-colors">
                 Submit
               </button>
             </div>
@@ -202,7 +202,7 @@ export default function Timesheets() {
         </div>
 
         {/* Create New Timesheet Button */}
-        <button className="w-full py-4 bg-subster-green text-white rounded-full font-medium text-lg">
+        <button className="w-full py-4 bg-subster-green text-white rounded-full font-medium text-lg hover:bg-subster-green-light transition-colors shadow-sm">
           Create New Timesheet
         </button>
       </div>
