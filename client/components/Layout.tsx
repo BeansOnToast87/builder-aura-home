@@ -78,9 +78,11 @@ export default function Layout({ children }: LayoutProps) {
 
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-              <div className="w-4 h-4 bg-subster-purple rounded-full"></div>
-            </div>
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F8cb83502768745a4a67cc5a59e3de622%2F812fafd930e649a987a31d6033f45ca6?format=webp&width=800"
+              alt="Subster logo"
+              className="w-8 h-8 object-contain"
+            />
             <span className="text-white text-xl font-semibold">Subster</span>
           </div>
 
