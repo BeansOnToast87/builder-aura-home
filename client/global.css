@@ -56,9 +56,9 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     /* Subster theme colors - exact logo match */
-    --subster-purple: 315 25% 68%; /* #B5A2B0 - muted grayish-purple like logo */
-    --subster-purple-light: 315 30% 74%; /* slightly lighter for gradient */
-    --subster-purple-dark: 315 20% 62%; /* slightly darker for depth */
+    --subster-purple: 310 15% 70%; /* #B8A8B1 - very muted grayish-purple like logo */
+    --subster-purple-light: 310 18% 76%; /* slightly lighter for gradient */
+    --subster-purple-dark: 310 12% 64%; /* slightly darker for depth */
     --subster-navy: 220 35% 58%; /* #7A8BB8 - logo center blue */
     --subster-navy-light: 220 40% 68%; /* lighter navy */
     --subster-green: 150 40% 70%; /* #8BBBA8 - logo green */
@@ -105,9 +105,9 @@
     --sidebar-ring: 217.2 91.2% 59.8%;
 
     /* Subster dark theme colors - exact logo match */
-    --subster-purple: 315 25% 63%; /* darker version of muted logo color */
-    --subster-purple-light: 315 30% 69%; /* lighter version */
-    --subster-purple-dark: 315 20% 57%; /* darker version */
+    --subster-purple: 310 15% 65%; /* darker version of very muted logo color */
+    --subster-purple-light: 310 18% 71%; /* lighter version */
+    --subster-purple-dark: 310 12% 59%; /* darker version */
     --subster-navy: 220 35% 53%; /* darker version of logo blue */
     --subster-navy-light: 220 40% 63%; /* lighter navy */
     --subster-green: 150 40% 65%; /* darker version of logo green */
