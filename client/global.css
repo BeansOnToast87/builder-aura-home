@@ -55,14 +55,14 @@
 
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Subster theme colors - exact logo match */
-    --subster-purple: 331 29% 63%; /* #B68298 dusty rose */
-    --subster-purple-light: 331 35% 73%; /* lighter dusty rose for gradients */
-    --subster-purple-dark: 331 25% 53%; /* darker dusty rose for depth */
-    --subster-navy: 223 24% 53%; /* #6E779E soft navy */
-    --subster-navy-light: 223 30% 63%; /* lighter soft navy */
-    --subster-green: 108 34% 76%; /* #B2D9AD mint green */
-    --subster-green-light: 108 40% 86%; /* lighter mint green */
+    /* Subster theme colors - extracted from logo */
+    --subster-purple: 315 40% 70%; /* #C897B8 - main logo background pink */
+    --subster-purple-light: 315 45% 80%; /* lighter version for gradients */
+    --subster-purple-dark: 315 35% 60%; /* darker version for depth */
+    --subster-navy: 225 45% 55%; /* #6B7DB0 - center circle blue */
+    --subster-navy-light: 225 50% 65%; /* lighter navy */
+    --subster-green: 140 45% 65%; /* #7BC97B - book/leaf green from logo */
+    --subster-green-light: 140 50% 75%; /* lighter green */
     --subster-gray: 215 16% 47%;
     --subster-gray-light: 210 20% 98%;
   }
@@ -104,14 +104,14 @@
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
 
-    /* Subster dark theme colors - exact logo match */
-    --subster-purple: 331 29% 58%; /* #B68298 dusty rose - darker for dark mode */
-    --subster-purple-light: 331 35% 68%; /* lighter dusty rose */
-    --subster-purple-dark: 331 25% 48%; /* darker dusty rose */
-    --subster-navy: 223 24% 48%; /* #6E779E soft navy - darker for dark mode */
-    --subster-navy-light: 223 30% 58%; /* lighter soft navy */
-    --subster-green: 108 34% 71%; /* #B2D9AD mint green - darker for dark mode */
-    --subster-green-light: 108 40% 81%; /* lighter mint green */
+    /* Subster dark theme colors - logo matched */
+    --subster-purple: 315 40% 65%; /* darker version of logo pink */
+    --subster-purple-light: 315 45% 75%; /* lighter version */
+    --subster-purple-dark: 315 35% 55%; /* darker version */
+    --subster-navy: 225 45% 50%; /* darker version of logo blue */
+    --subster-navy-light: 225 50% 60%; /* lighter navy */
+    --subster-green: 140 45% 60%; /* darker version of logo green */
+    --subster-green-light: 140 50% 70%; /* lighter green */
     --subster-gray: 215 16% 65%;
     --subster-gray-light: 220 13% 18%;
   }
