@@ -35,27 +35,6 @@ export default function Splash() {
           Connecting great teachers with schools, instantly.
         </p>
       </div>
-
-      <style jsx>{`
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-
-        .animate-fade-in {
-          animation: fadeIn 1s ease-out 0.5s both;
-        }
-
-        .animate-fade-in-delayed {
-          animation: fadeIn 1s ease-out 1s both;
-        }
-      `}</style>
     </div>
   );
 }
