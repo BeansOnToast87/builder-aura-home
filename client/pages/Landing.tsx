@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 export default function Landing() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+    <div className="min-h-screen" style={{ backgroundColor: "#B68298" }}>
       {/* Header */}
-      <header className="bg-white shadow-sm">
+      <header className="shadow-sm" style={{ backgroundColor: "#B68298" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center py-6">
             {/* Logo */}
@@ -14,15 +14,13 @@ export default function Landing() {
                 alt="Subster logo"
                 className="w-10 h-10 object-contain"
               />
-              <span className="text-2xl font-bold" style={{ color: "#B68298" }}>
-                Subster
-              </span>
+              <span className="text-2xl font-bold text-white">Subster</span>
             </div>
 
             {/* Login Button */}
             <Link
               to="/login"
-              className="px-6 py-2 border border-gray-300 rounded-full text-gray-700 font-medium hover:bg-gray-50 transition-colors"
+              className="px-6 py-2 border-2 border-white rounded-full text-white font-medium hover:bg-white hover:text-gray-900 transition-colors"
             >
               Login
             </Link>
@@ -34,13 +32,13 @@ export default function Landing() {
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="py-20 sm:py-28 text-center">
           {/* Main Heading */}
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
             Connecting great teachers{" "}
             <span className="block">with schools</span>
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl sm:text-2xl text-gray-600 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl sm:text-2xl text-white opacity-90 mb-12 max-w-3xl mx-auto leading-relaxed">
             Fast, human-first matching for flexible teaching.
           </p>
 
@@ -49,15 +47,15 @@ export default function Landing() {
             <Link
               to="/signup?role=teacher"
               className="w-full sm:w-auto px-8 py-4 text-white font-semibold rounded-full text-lg hover:opacity-90 transition-all transform hover:scale-105 shadow-lg"
-              style={{ backgroundColor: "#B68298" }}
+              style={{ backgroundColor: "#6E779E" }}
             >
               Join as a Teacher
             </Link>
 
             <Link
               to="/signup?role=school"
-              className="w-full sm:w-auto px-8 py-4 border-2 font-semibold rounded-full text-lg hover:bg-gray-50 transition-all transform hover:scale-105"
-              style={{ borderColor: "#B68298", color: "#B68298" }}
+              className="w-full sm:w-auto px-8 py-4 bg-white border-2 border-white font-semibold rounded-full text-lg hover:bg-gray-100 transition-all transform hover:scale-105 shadow-lg"
+              style={{ color: "#B68298" }}
             >
               Find a Teacher
             </Link>
@@ -72,10 +70,10 @@ export default function Landing() {
               >
                 <span className="text-2xl text-white">⚡</span>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-lg font-semibold text-white mb-2">
                 Fast Matching
               </h3>
-              <p className="text-gray-600">
+              <p className="text-white opacity-80">
                 Get matched with the perfect teaching opportunities instantly.
               </p>
             </div>
@@ -87,10 +85,10 @@ export default function Landing() {
               >
                 <span className="text-2xl text-white">👥</span>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-lg font-semibold text-white mb-2">
                 Human-First
               </h3>
-              <p className="text-gray-600">
+              <p className="text-white opacity-80">
                 Personal connections and quality relationships matter most.
               </p>
             </div>
@@ -102,10 +100,10 @@ export default function Landing() {
               >
                 <span className="text-2xl text-white">🎯</span>
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-lg font-semibold text-white mb-2">
                 Flexible
               </h3>
-              <p className="text-gray-600">
+              <p className="text-white opacity-80">
                 Find part-time, full-time, or substitute teaching roles.
               </p>
             </div>
