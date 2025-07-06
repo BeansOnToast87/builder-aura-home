@@ -2,7 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center px-4">
+    <div
+      className="min-h-screen flex items-center justify-center px-4"
+      style={{ backgroundColor: "#B68298" }}
+    >
       <div className="max-w-md w-full bg-white rounded-2xl shadow-lg p-8">
         {/* Logo */}
         <div className="text-center mb-8">
@@ -53,8 +56,14 @@ export default function Login() {
 
           <button
             type="submit"
-            className="w-full py-3 text-white font-semibold rounded-lg hover:opacity-90 transition-opacity"
-            style={{ backgroundColor: "#B68298" }}
+            className="w-full py-3 text-white font-semibold rounded-lg hover:bg-opacity-90 transition-colors"
+            style={{ backgroundColor: "#6E779E" }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = "#5a6688";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = "#6E779E";
+            }}
           >
             Sign In
           </button>
@@ -73,7 +82,7 @@ export default function Login() {
             </Link>
           </p>
           <Link
-            to="/"
+            to="/landing"
             className="block text-sm text-gray-500 hover:text-gray-700"
           >
             ← Back to home
